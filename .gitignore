@@ -192,3 +192,37 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dados
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Arquivos ocultos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente virtual
+.venv/
+.env
+*.env
+
+# Arquivos de banco de dados
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
