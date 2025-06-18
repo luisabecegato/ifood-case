@@ -96,7 +96,20 @@ O modelo foi salvo em:
 
 ### 1. Clone o repositório:
 
-```bash
+```
 git clone https://github.com/luisabecegato/ifood-case.git
 cd ifood-case
+```
+### 2. Instale as dependências:
+```
+pip install -r requirements.txt
+```
+### 3. Execute os notebooks:
 
+notebooks/1_data_processing.ipynb → Tratamento dos dados
+
+notebooks/2_modeling.ipynb → Treinamento e avaliação dos modelos
+
+## Autora:
+Luísa Becegato
+LinkedIn
