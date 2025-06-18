@@ -111,5 +111,6 @@ notebooks/1_data_processing.ipynb → Tratamento dos dados
 notebooks/2_modeling.ipynb → Treinamento e avaliação dos modelos
 
 ## Autora:
-Luísa Becegato
-LinkedIn
+Luísa Halley Becegato
+[LinkedIn](https://www.linkedin.com/in/halleybecegato/)
+
