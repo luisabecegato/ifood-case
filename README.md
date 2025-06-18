@@ -54,3 +54,12 @@ ifood-case/
 ```
 
 ---
+
+##  Como Executar o Projeto
+
+### 1. Clone o repositório:
+
+```bash
+git clone https://github.com/luisabecegato/ifood-case.git
+cd ifood-case
+
