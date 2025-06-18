@@ -37,7 +37,7 @@ O case fornece três arquivos principais em formato `.json`:
 ---
 
 ## 🏗 Estrutura do Repositório
-'''
+---
 ifood-case/
 ├── data/
 │ ├── raw/
@@ -51,4 +51,4 @@ ifood-case/
 ├── requirements.txt
 └── README.md
 
-'''
+---
