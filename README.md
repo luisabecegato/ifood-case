@@ -37,18 +37,20 @@ O case fornece três arquivos principais em formato `.json`:
 ---
 
 ## 🏗 Estrutura do Repositório
----
+
+```
 ifood-case/
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
-│ ├── 1_data_processing.ipynb
-│ └── 2_modeling.ipynb
+│   ├── 1_data_processing.ipynb
+│   └── 2_modeling.ipynb
 ├── presentation/
-│ └── ifood_case_slides.pdf
+│   └── ifood_case_slides.pdf
 ├── src/
 ├── requirements.txt
 └── README.md
+```
 
 ---
