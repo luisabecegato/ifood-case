@@ -1,11 +1,11 @@
 # ifood-case
-# 📦 Solução para o case técnico de Data Science do iFood
+#  Solução para o case técnico de Data Science do iFood
 
 Este projeto foi desenvolvido como parte de um processo seletivo para a vaga de Cientista de Dados no iFood. O desafio consiste em propor uma solução baseada em dados para otimizar a distribuição de cupons e ofertas aos clientes.
 
 ---
 
-## 📌 Objetivo
+##  Objetivo
 
 Criar uma estratégia de distribuição de ofertas personalizada por cliente, maximizando o engajamento e o retorno das campanhas de marketing, com base em:
 
@@ -15,7 +15,7 @@ Criar uma estratégia de distribuição de ofertas personalizada por cliente, ma
 
 ---
 
-## 📊 Sobre os Dados
+##  Sobre os Dados
 
 O case fornece três arquivos principais em formato `.json`:
 
@@ -25,7 +25,7 @@ O case fornece três arquivos principais em formato `.json`:
 
 ---
 
-## 🧪 Pipeline do Projeto
+##  Pipeline do Projeto
 
 1. **Exploração e limpeza dos dados** com PySpark.
 2. **Criação de features** representando comportamento do cliente e interação com ofertas.
@@ -36,7 +36,8 @@ O case fornece três arquivos principais em formato `.json`:
 
 ---
 
-## 🏗️ Estrutura do Repositório
+## 🏗 Estrutura do Repositório
+'''
 ifood-case/
 ├── data/
 │ ├── raw/
@@ -49,3 +50,5 @@ ifood-case/
 ├── src/
 ├── requirements.txt
 └── README.md
+
+'''
