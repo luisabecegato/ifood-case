@@ -15,7 +15,7 @@ Criar uma estratégia de distribuição de ofertas personalizada por cliente, ma
 
 ---
 
-## 🏗 Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 ifood-case/
