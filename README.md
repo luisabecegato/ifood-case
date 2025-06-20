@@ -62,6 +62,26 @@ O case fornece três arquivos principais em formato `.json`:
 
 ---
 
+## Estratégia de Estruturação da Base
+
+Antes de realizar análises exploratórias e limpeza de dados tradicionais, optamos por construir uma base unificada a partir dos eventos brutos. As tabelas recebidas representam registros independentes de ações como offer received, offer viewed, offer completed e transaction, que sozinhas não carregam significado analítico direto.
+
+Por isso, nosso primeiro passo foi consolidar esses eventos em uma estrutura tabular que representasse o relacionamento entre cada cliente (account_id) e cada oferta (offer_id). A partir dessa base, criamos variáveis importantes como:
+
+   - foi_visualizada: indica se o cliente visualizou a oferta recebida
+
+   - foi_completada: indica se o cliente completou a oferta
+
+   - tempo_ate_visualizacao: tempo decorrido até a visualização da oferta
+
+   - tempo_ate_completamento: tempo decorrido até a conclusão da oferta
+
+   - Essa estruturação permitiu que cada linha da base representasse uma interação completa entre cliente e oferta, criando assim a unidade de análise ideal para a etapa de EDA, modelagem e geração de insights.
+
+Essa decisão antecipada garantiu maior clareza nas análises e maior poder explicativo nos modelos preditivos.
+
+---
+
 ##  Modelagem
 
 O notebook `2_modeling.ipynb` contém o processo de modelagem para prever a probabilidade de um cliente completar uma oferta.
