@@ -66,7 +66,7 @@ O case fornece três arquivos principais em formato `.json`:
 
 O notebook `1_data_processing.ipnyb` contém o processo de criação da base unificada usada em todo o projeto.
 
-Antes de realizar análises exploratórias e limpeza de dados tradicionais, optei por construir uma base unificada a partir dos eventos brutos. As tabelas recebidas representam registros independentes de ações como offer received, offer viewed, offer completed e transaction, que sozinhas não carregam significado analítico expressivos.
+Antes de realizar análises exploratórias e limpeza de dados tradicionais, optei por construir uma base unificada a partir dos eventos brutos. As tabelas recebidas representam registros independentes de ações como offer received, offer viewed, offer completed e transaction, que sozinhas não carregam significado analítico expressivo.
 
 Por isso, meu primeiro passo foi consolidar esses eventos em uma estrutura tabular que representasse o relacionamento entre cada cliente (account_id) e cada oferta (offer_id). A partir dessa base, criei variáveis importantes como:
 
