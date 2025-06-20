@@ -55,16 +55,16 @@ O case fornece três arquivos principais em formato `.json`:
    - Comparação de desempenho por acurácia, ROC-AUC e validação cruzada
    - Avaliação de importância das variáveis
    - Escolha do melhor modelo
-
-3. **Geração de entregáveis**:
-   - Apresentação executiva com resultados e impacto projetado
    - Salvamento do modelo final `.pkl`
+   
+3. **Geração de entregáveis**:
+   - Apresentação executiva com resultados, apresentação e impacto projetado
 
 ---
 
 ## Estratégia de Estruturação da Base
 
-O notebook '1_data_processing.ipnyb' contém o processo de criação da base unificada usada em todo o projeto.
+O notebook `1_data_processing.ipnyb` contém o processo de criação da base unificada usada em todo o projeto.
 
 Antes de realizar análises exploratórias e limpeza de dados tradicionais, optei por construir uma base unificada a partir dos eventos brutos. As tabelas recebidas representam registros independentes de ações como offer received, offer viewed, offer completed e transaction, que sozinhas não carregam significado analítico expressivos.
 
